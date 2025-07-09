@@ -270,7 +270,7 @@ const Dashboard = () => {
                         ))}
                 </tbody>
             </table>
-            <div className="mx-auto my-4 flex w-fit gap-4 text-sm font-semibold text-slate-600 sm:mx-0 sm:ml-auto">
+            <div className="mx-auto my-4 flex w-fit items-center gap-4 text-sm font-semibold text-slate-600 sm:mx-0 sm:ml-auto">
                 <p>
                     {start + 1}-{end} of {sortedAndFilterdComments.length}
                 </p>
