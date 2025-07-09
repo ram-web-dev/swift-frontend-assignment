@@ -51,7 +51,8 @@ const Dashboard = () => {
             return result.filter(
                 (ele) =>
                     ele.name.includes(searchInput) ||
-                    ele.email.includes(searchInput)
+                    ele.email.includes(searchInput) ||
+                    ele.body.includes(searchInput)
             )
         }
         return result
